@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Identify Car Wash Services">
+  <test thread-count="5" name="Car Wash Services">
+    <classes>
+      
+      <class name="org.identify.carwash.HomePage"/>
+      <class name="org.identify.carwash.CarWashServices"/>
+      <class name="org.identify.carwash.FreeListing"/>
+      <class name="org.identify.carwash.GymSubMenu"/>
+    </classes> 
+  </test> <!-- Car Wash Services -->
+</suite> <!-- Identify Car Wash Services -->
